@@ -26,6 +26,7 @@ ReactDOM.render(
       <Route path='/landing' exact component={Landing} />
       <Route path='/profile' exact component={Profile} />
       <Route path='/' exact component={Index} />
+      <Route path='/Showcase' exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from='*' to='/Showcase' />
     </Switch>
