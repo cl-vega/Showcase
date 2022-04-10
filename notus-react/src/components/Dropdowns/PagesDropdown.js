@@ -44,7 +44,7 @@ const PagesDropdown = () => {
           Admin Layout
         </span>
         <Link
-          to="/admin/dashboard"
+          to="/Showcase/admin/dashboard"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -52,7 +52,7 @@ const PagesDropdown = () => {
           Dashboard
         </Link>
         <Link
-          to="/admin/settings"
+          to="/Showcase/admin/settings"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -60,7 +60,7 @@ const PagesDropdown = () => {
           Settings
         </Link>
         <Link
-          to="/admin/tables"
+          to="/Showcase/admin/tables"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -68,7 +68,7 @@ const PagesDropdown = () => {
           Tables
         </Link>
         <Link
-          to="/admin/maps"
+          to="/Showcase/admin/maps"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -84,7 +84,7 @@ const PagesDropdown = () => {
           Auth Layout
         </span>
         <Link
-          to="/auth/login"
+          to="/Showcase/auth/login"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -92,7 +92,7 @@ const PagesDropdown = () => {
           Login
         </Link>
         <Link
-          to="/auth/register"
+          to="/Showcase/auth/register"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -108,7 +108,7 @@ const PagesDropdown = () => {
           No Layout
         </span>
         <Link
-          to="/landing"
+          to="/Showcase/landing"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -116,7 +116,7 @@ const PagesDropdown = () => {
           Landing
         </Link>
         <Link
-          to="/profile"
+          to="/Showcase/profile"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }

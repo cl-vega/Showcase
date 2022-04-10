@@ -22,7 +22,7 @@ export default function Sidebar() {
           {/* Brand */}
           <Link
             className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
-            to="/"
+            to="/Showcase"
           >
             Notus React
           </Link>
@@ -48,7 +48,7 @@ export default function Sidebar() {
                 <div className="w-6/12">
                   <Link
                     className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
-                    to="/"
+                    to="/Showcase"
                   >
                     Notus React
                   </Link>
@@ -92,7 +92,7 @@ export default function Sidebar() {
                       ? "text-lightBlue-500 hover:text-lightBlue-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
-                  to="/admin/dashboard"
+                  to="/Showcase/admin/dashboard"
                 >
                   <i
                     className={
@@ -114,7 +114,7 @@ export default function Sidebar() {
                       ? "text-lightBlue-500 hover:text-lightBlue-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
-                  to="/admin/settings"
+                  to="/Showcase/admin/settings"
                 >
                   <i
                     className={
@@ -136,7 +136,7 @@ export default function Sidebar() {
                       ? "text-lightBlue-500 hover:text-lightBlue-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
-                  to="/admin/tables"
+                  to="/Showcase/admin/tables"
                 >
                   <i
                     className={
@@ -158,7 +158,7 @@ export default function Sidebar() {
                       ? "text-lightBlue-500 hover:text-lightBlue-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
-                  to="/admin/maps"
+                  to="/Showcase/admin/maps"
                 >
                   <i
                     className={
@@ -185,7 +185,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link
                   className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  to="/auth/login"
+                  to="/Showcase/auth/login"
                 >
                   <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
                   Login
@@ -195,7 +195,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link
                   className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  to="/auth/register"
+                  to="/Showcase/auth/register"
                 >
                   <i className="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>{" "}
                   Register
@@ -215,7 +215,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link
                   className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  to="/landing"
+                  to="/Showcase/landing"
                 >
                   <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
                   Landing Page
@@ -225,7 +225,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link
                   className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  to="/profile"
+                  to="/Showcase/profile"
                 >
                   <i className="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>{" "}
                   Profile Page

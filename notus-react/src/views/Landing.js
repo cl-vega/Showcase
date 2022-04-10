@@ -129,7 +129,7 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
+                <Link to="/Showcase" className="font-bold text-blueGray-700 mt-8">
                   Check Notus React!
                 </Link>
               </div>
